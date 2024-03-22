@@ -1,0 +1,38 @@
+body {
+  background-image: url(./asset/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.right {
+  font-size: 60px;
+  position: absolute;
+  top: 350px;
+  right: 200px;
+  text-shadow: 1px 1px 1px grey, 2px 2px 1px grey;
+}
+.left {
+  font-size: 60px;
+  position: absolute;
+  top: 350px;
+  left: 200px;
+  text-shadow: 1px 1px 1px grey, 2px 2px 1px grey;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    /* background-color: #66B6FF; */
+    background-image: url(./asset/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .left {
+    font-size: 15px;
+    position: absolute;
+    left: 50px;
+  }
+  .right{
+    font-size: 15px;
+    position: absolute;
+    right: 50px;
+  }
+}
